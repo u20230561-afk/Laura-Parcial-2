@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles4.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Laura García</title>
+    <style>
+        /* Estilo básico para que el formulario se vea ordenado */
+        form {
+            background-color: #ececec;
+            padding: 18px;
+            border: 2px solid #ececec;
+            width: 350px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 8px;
+            border: 1px solid #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contacto</h1>
+
+    <hr>
+
+    <p>
+       Si quieres <b>trabajar</b> conmigo, este es el primer paso.
+Completa el formulario con los detalles de tu propuesta y te responderé pronto para conversar sobre tu <i>proyecto digital</i>.
+    </p>
+
+    <form action="#">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué puedo ayudarte?" required></textarea>
+
+        <button type="submit"><b>Enviar Mensaje</b></button>
+    </form>
+
+    <br>
+
+    <p>
+        <strong>
+            <a href="Index.html">Ir a la página principal</a>
+        </strong>
+    </p>
+
+    <hr>
+
+    <footer>
+        <p><i>Portafolio Laura García &copy; 2024 - Universidad Autónoma de Santa Ana</i></p>
+    </footer>
+
+</body>
+</html>
